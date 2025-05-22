@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up | BlogKing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/signup.css">
+</head>
+<body>
+    <div style="max-width:400px;margin:3rem auto;padding:2rem;background:#fff;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.07);">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <label for="signupEmail">Email<br>
+                <input type="email" id="signupEmail" required aria-required="true" aria-label="Email">
+            </label><br><br>
+            <label for="signupPassword">Password<br>
+                <input type="password" id="signupPassword" required aria-required="true" aria-label="Password">
+            </label><br><br>
+            <button type="submit" id="signupBtn" aria-label="Sign Up">Sign Up</button>
+        </form>
+        <div id="signupError" style="color:red;margin-top:1rem;"></div>
+        <div style="margin-top:1rem;">
+            Already have an account? <a href="login.html">Login</a>
+        </div>
+    </div>
+    <script src="js/signup.js"></script>
+</body>
+</html>

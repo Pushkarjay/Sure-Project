@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | BlogKing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+    <div style="max-width:400px;margin:3rem auto;padding:2rem;background:#fff;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.07);">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="loginEmail">Email or Username<br>
+                <input type="text" id="loginEmail" required aria-required="true" aria-label="Email or Username">
+            </label><br><br>
+            <label for="loginPassword">Password<br>
+                <input type="password" id="loginPassword" required aria-required="true" aria-label="Password">
+            </label><br><br>
+            <button type="submit" id="loginBtn" aria-label="Login">Login</button>
+        </form>
+        <div id="loginError" style="color:red;margin-top:1rem;"></div>
+        <div style="margin-top:1rem;">
+            Don't have an account? <a href="signup.html">Sign up</a>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>

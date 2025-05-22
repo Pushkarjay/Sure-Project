@@ -1,0 +1,13 @@
+/* Dashboard page specific styles */
+.dashboard-content {
+    /* Add dashboard-specific layout or overrides here */
+}
+
+#batchJoinMsg, #msgPostStatus, #fileUploadStatus {
+    font-weight: 500;
+}
+
+#recentMsgList, #fileLogList {
+    list-style: disc inside;
+    padding-left: 1.5rem;
+}
